@@ -1,24 +1,12 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version : ruby 2.3.1p112
 
-Things you may want to cover:
+* End-points: 
+  - GET /html_contents  - returns list of urls and content in JSON format
+  - POST /html_contents - parses the link to add the content and returns the entry as JSON
 
-* Ruby version
+* Uses mongodb so no db setup required
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* rspec spec/models/html_content_spec.rb and rspec spec/controllers/html_contents_controller_spec.rb  for running tests.
 
 * ...
